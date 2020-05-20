@@ -1,1 +1,8 @@
-version: '3'
+version: '3.1'
+
+services: 
+    deno:
+        image: nifeoluyemi/deno
+        container_name: denojs
+        ports: 
+            - 8001:8000

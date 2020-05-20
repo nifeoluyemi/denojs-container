@@ -2,3 +2,4 @@ docker-compose.yml
 Dockerfile
 main.ts
 README.md
+.gitignore
