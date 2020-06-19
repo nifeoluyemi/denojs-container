@@ -13,7 +13,3 @@ ENV DENO_INSTALL="$HOME/.deno"
 ENV PATH="$DENO_INSTALL/bin:$PATH"
 
 RUN mkdir -p $HOME/app
-
-COPY ./main.ts $HOME/app
-
-WORKDIR $HOME/app
